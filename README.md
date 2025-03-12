@@ -89,7 +89,7 @@ Ensure Python is installed on your machine.
 
     Execute the script to scrape data from Amazon.
     ```bash
-    python src/scraper.py
+    python scraper.py
     ```
 - The scraped data will be saved as ``data/raw_data.csv``.
 
