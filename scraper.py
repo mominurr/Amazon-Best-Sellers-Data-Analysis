@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 from time import sleep
-import sys
-
+import sys,os
+os.makedirs("data", exist_ok=True) 
 def update_message(message):
     print(message,end='\r')
     sys.stdout.flush()
